@@ -1,0 +1,72 @@
+.condition-row{padding-top: 1%}
+.condition-input-select{width: 100%}
+#search-header .input-group-addon{width: 10%}
+.condition-input-select .input-group-addon{width: 10%!important;}
+#search-result{text-align: center}
+.search-result-item:hover{cursor: pointer}
+.page-item:hover{cursor: pointer}
+.detail-title{width: 12%}
+.important{color: #d58512}
+@media (min-width: 768px) {
+    .fixed{position: fixed;}
+    .space{height: 4%; padding-top:3%}
+    .button-group{padding-top: 2%;}
+    #search-table{font-size: 0.9em;}
+}
+#print-area{font-size: 0.9em;}
+body{background-color: #ECF0F5;}
+.page-title{font-size: 1.6em;}
+.double-input-item{width: 45%!important; padding-left: 10%; float: left!important;}
+.double-input-text{width: 10%; float: left; line-height: 2;}
+.datetimepicker td, .datetimepicker span{cursor: pointer}
+.today{text-align: center; cursor: pointer;}
+.datetimepicker td:hover, .datetimepicker span:hover{background-color: #CCCC99}
+.today:hover{background-color: #CCCC99}
+.print-caption-left{float: left}
+.print-caption-right{float: right}
+#print-pager-ul{list-style: none;clear: both;display: inline-block}
+#print-pager-ul li{display: inline;float: left;margin-left: 5px}
+#print-pager-input{width: 35%;display: inline;float: left}
+#print-pager-jump{float: left}
+.ui-autocomplete {
+    list-style: none;
+    background-color: #B0BED9;
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+    z-index:9050!important;
+}
+.Validform_checktip{
+    margin-left:8px;
+    line-height:20px;
+    height:20px;
+    overflow:hidden;
+    color:#999;
+    font-size:12px;
+}
+.Validform_right{
+    color:#71b83d;
+    padding-left:20px;
+    background:url(/static/dist/img/right.png) no-repeat left center;
+}
+.Validform_wrong{
+    color:red;
+    padding-left:20px;
+    white-space:nowrap;
+    background:url(/static/dist/img/error.png) no-repeat left center;
+}
+.Validform_loading{
+    padding-left:20px;
+    background:url(/static/dist/img/onLoad.gif) no-repeat left center;
+}
+.Validform_error{
+    background-color:#ffe7e7;
+}
+#Validform_msg{color:#7d8289; font: 12px/1.5 tahoma, arial, \5b8b\4f53, sans-serif; width:280px; -webkit-box-shadow:2px 2px 3px #aaa; -moz-box-shadow:2px 2px 3px #aaa; background:#fff; position:absolute; top:0px; right:50px; z-index:99999; display:none;filter: progid:DXImageTransform.Microsoft.Shadow(Strength=3, Direction=135, Color='#999999'); box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.1);}
+#Validform_msg .iframe{position:absolute; left:0px; top:-1px; z-index:-1;}
+#Validform_msg .Validform_title{line-height:25px; height:25px; text-align:left; font-weight:bold; padding:0 8px; color:#fff; position:relative; background-color:#999;
+    background: -moz-linear-gradient(top, #999, #666 100%); background: -webkit-gradient(linear, 0 0, 0 100%, from(#999), to(#666)); filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#999999', endColorstr='#666666');}
+#Validform_msg a.Validform_close:link,#Validform_msg a.Validform_close:visited{line-height:22px; position:absolute; right:8px; top:0px; color:#fff; text-decoration:none;}
+#Validform_msg a.Validform_close:hover{color:#ccc;}
+#Validform_msg .Validform_info{padding:8px;border:1px solid #bbb; border-top:none; text-align:left;}

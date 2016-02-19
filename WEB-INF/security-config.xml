@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<security-rules>
+    <security-rule>
+        <pattern>/test</pattern>
+        <auth>doGet</auth>
+    </security-rule>
+    <security-rule>
+        <pattern>/login</pattern>
+        <auth>doGet</auth>
+    </security-rule>
+</security-rules>

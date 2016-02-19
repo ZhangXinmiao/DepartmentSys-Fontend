@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<routes-config>
+    <route>
+        <url>/test</url>
+        <method>doGet</method>
+        <controller>com.sys.document.controller.DocumentManagementServlet</controller>
+    </route>
+    <route>
+        <url>/login</url>
+        <method>doGet</method>
+        <controller>com.sys.user.controller.LoginServlet</controller>
+    </route>
+</routes-config>
